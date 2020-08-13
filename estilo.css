@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body{
+    /* padding-left: 10rem; 
+    margin: 10px 10%;*/
+
+    align-content: justify;
+}
+div {
+    align-content: center;
+    background-color: whitesmoke;
+    color: gray;
+    width: fit-content;
+    height: fit-content;
+    float: inherit;
+}
+#ciudad {
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+#temp {
+    font-size: xx-large;
+    color:black;
+    font-weight: bolder;
+    animation: blinker 1s infinite;
+
+}
+
+img { align-content: center;
+      width: 35px;
+    height: 35px;}
+@keyframes blinker {
+    50% {
+    opacity: 0;
+    }
+}
+#viento,#humedad{
+    float: right;
+    margin-left: 100px;
+}
+
+#humedad{
+    float: right;
+    margin-right: 22px;
+} 
